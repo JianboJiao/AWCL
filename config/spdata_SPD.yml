@@ -1,0 +1,36 @@
+pre_scaling_factor: 0.5714285714285714  # 4/7
+
+frame_modulo: 8
+
+out_res: [227, 227]
+
+normalize: True
+#normalize: False
+
+to_augment: True
+# to_augment: False
+
+augment_cfg:
+  gamma: [0.75, 1.25]
+  brightness: [0.75, 1.25]
+
+# data_folder: anatomy_pretraining
+data_folder: SPD_Pretrain
+
+num_samples:
+
+classes:
+  - 3VT
+  - 4CH
+  - ACP
+  - BG
+  - FLP
+  - HCP
+  - KIDNEYS_CORONAL
+  - LVOT
+  - NOSE_LIPS
+  - PROFILE
+  - RVOT
+  - SOB
+  - SPINE_COR
+  - SPINE_SAG
